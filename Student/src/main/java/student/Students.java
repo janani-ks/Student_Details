@@ -25,6 +25,7 @@ public class Students
 		display.print("Student New GPA = ");
 		gpa = scan.nextDouble();
         obj.update(gpa);
+		break;
 		case 2:
         display.println(obj.print());
         break;
